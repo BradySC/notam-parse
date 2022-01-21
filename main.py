@@ -1,6 +1,74 @@
 import os
+import pandas as pd
 
 dir_path = os.path.dirname(os.path.abspath(__file__))
+
+class NOTAM:
+    def __init__(self, notam):
+        self.NotamDict = notam
+
+    @property
+    def Location(self):
+        return self.NotamDict['Location']
+
+    @property
+    def Identification(self):
+        return self.NotamDict['NOTAM #/LTA #']
+
+    @property
+    def IssueDate(self):
+        return self.NotamDict['Issue Date (UTC)']
+
+    @property
+    def EffDate(self):
+        return self.NotamDict['Effective Date (UTC)']
+
+    @property
+    def ExpirDate(self):
+        return self.NotamDict['Expiration Date (UTC)']
+
+    @property
+    def NotamText(self):
+        return self.NotamDict['NOTAM Text']
+
+    @property
+    def CoordsStrList(self):
+        text_lines = self.NotamText.splitlines()
+        coords_unparse = []
+        for index, line in enumerate(text_lines):
+            text_lines[index] = line.rstrip()
+        for line in text_lines:
+            if line[-3:] == ' TO' or line[-3:] == 'HEL':
+                coords_unparse.append(line[:15])
+        return coords_unparse
+
+    def __str__(self):
+        return (
+            (
+                'Location: %s\n'
+                'NOTAM #/LTA #: %s\n'
+                'Issue Date (UTC): %s\n'
+                'Effective Date (UTC): %s\n'
+                'Expiration Date (UTC): %s\n'
+                'NOTAM Text: \n%s'
+            ) %
+            (
+                self.Location, 
+                self.Identification, 
+                self.IssueDate, 
+                self.EffDate, 
+                self.ExpirDate, 
+                self.NotamText
+                )
+            )
+
+
+def read_xlsx(filename):
+    notams_df = pd.read_excel(os.path.join(dir_path, filename))
+    notams_df.rename(columns={'NOTAM Condition/LTA subject/Construction graphic title': 'NOTAM Text'}, inplace=True)
+    notams_df = notams_df.loc[notams_df['Class'] == 'Airspace'].copy()
+    notams_dict = notams_df.to_dict('records')
+    return notams_dict
 
 def parse_coords(coord_string):
     signs = {'N': 1, 'E': 1, 'S': -1, 'W': -1}
@@ -15,37 +83,37 @@ def parse_coords(coord_string):
     lng = (int(lng_unparse[:3]) + (int(lng_unparse[3:5])/60) + (int(lng_unparse[5:])/3600)) * signs[lng_dir]
     return lat,lng
 
-def parse_plain_txt_notam(text):
-    text_lines = text.splitlines()
-    coords_unparse = []
-    for index, line in enumerate(text_lines):
-        text_lines[index] = line.rstrip()
-    for line in text_lines:
-        if line[-3:] == ' TO' or line[-3:] == 'HEL':
-            coords_unparse.append(line[:15])
+def build_kml(kml_string, Notam):
+    notam_name = '%s - %s' % (Notam.Location, Notam.Identification)
+    kml_string = kml_string.replace('<Document><name>My document</name>',('<Document><name>%s</name>' % notam_name))
+    kml_string = kml_string.replace('<Placemark><name>NAME</name>',('<Placemark><name>%s</name>' % notam_name))
+    kml_string = kml_string.replace('<description>YES</description>',('<description>%s</description>' % Notam))
+    for index, coord in enumerate(Notam.CoordsStrList):
+        lat, lng = parse_coords(coord)
+        kml_string += ('\n%f,%f,0.0' % (lng, lat))
 
-    return coords_unparse
+    lat, lng = parse_coords(Notam.CoordsStrList[0])
+    kml_string += ('\n%f,%f,0.0\n' % (lng, lat))
+    return kml_string
 
 def main():
-    with open(os.path.join(dir_path, 'notam.txt')) as f:
-        test_notam = f.read()
-    notam_name = '01/122 (KZAB-A0011/22)'
-    coords_unparse = parse_plain_txt_notam(test_notam)
-    # coords_unparse = ['350910N0833730W','355543N0805628W','351602N0795242W','343300N0801615W','343522N0810041W','334830N0830608W']
-    with open(os.path.join(dir_path, 'xml_front_matter.txt'), 'r') as f:
-        xml = f.read()
-    xml = xml.replace('<Placemark><name>NAME</name>',('<Placemark><name>%s</name>' % notam_name))
-    xml = xml.replace('<Document><name>My document</name>',('<Document><name>%s</name>' % notam_name))
-    for index, coord in enumerate(coords_unparse):
-        lat, lng = parse_coords(coord)
-        xml += ('\n%f,%f,0.0' % (lng, lat))
-    lat, lng = parse_coords(coords_unparse[0])
-    xml += ('\n%f,%f,0.0\n' % (lng, lat))
-    with open(os.path.join(dir_path, 'xml_end_matter.txt'), 'r') as f:
-        xml += f.read()
-
+    notams_dict = read_xlsx('5g_notams.xlsx')
+    kml_start = open(os.path.join(dir_path, 'kml_front_matter.kml'), 'r').read()
+    kml_middle = open(os.path.join(dir_path, 'kml_int_matter.kml'), 'r').read()
+    kml_end = open(os.path.join(dir_path, 'kml_end_matter.kml'), 'r').read()
+    for index, notam in enumerate(notams_dict):
+        Notam = NOTAM(notam)
+        if index == 0:
+            kml = build_kml(kml_start, Notam)
+        else:
+            kml += build_kml(kml_middle, Notam)
+    
+    kml += kml_end
     with open(os.path.join(dir_path, 'kml_output.kml'), 'w+') as f:
-        f.write(xml)
+        f.write(kml)
 
 if __name__ == '__main__':
     main()
+    # notam_dict = read_xlsx('5g_notams.xlsx')[0]
+    # Notam = NOTAM(notam_dict)
+    # print(Notam)

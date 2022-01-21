@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document><name>01/122 (KZAB-A0011/22)</name>
+<Folder>
+<Document><name>ZAB - 01/121</name>
 <description>Content</description>
 <Style id="Lump">
 <LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
@@ -14,8 +15,77 @@
 http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
 </href></Icon></IconStyle>
 </Style>
-<Placemark><name>01/122 (KZAB-A0011/22)</name>
-<description>YES</description>
+<Placemark><name>ZAB - 01/121</name>
+<description>Location: ZAB
+NOTAM #/LTA #: 01/121
+Issue Date (UTC): 01/13/2022 0513
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!ABQ 01/121 ZAB AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+351150N1150319W (GFS041007.1) TO
+354558N1142306W (BLD106027.1) TO 
+353759N1134736W (PGS257012.2) TO 
+351052N1133053W (IGM088021.1) TO 
+345538N1140545W (EED047021.0) TO 
+341835N1134638W (EED113044.0) TO 
+340320N1142903W (PKE091010.2) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-115.055278,35.197222,0.0
+-114.385000,35.766111,0.0
+-113.793333,35.633056,0.0
+-113.514722,35.181111,0.0
+-114.095833,34.927222,0.0
+-113.777222,34.309722,0.0
+-114.484167,34.055556,0.0
+-115.055278,35.197222,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZAB - 01/122</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZAB - 01/122</name>
+<description>Location: ZAB
+NOTAM #/LTA #: 01/122
+Issue Date (UTC): 01/13/2022 0517
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!ABQ 01/122 ZAB AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+342010N1122039W (DRK149023) TO
+341218N1114128W (PXR005048.4) TO
+332702N1110804W (IWA058027.4) TO
+324747N1112145W (TFD089028.1) TO
+331120N1131026W (BXK214023.7) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
 <styleUrl>#Path</styleUrl>
 <LineString>
 <tessellate>1</tessellate>
@@ -31,4 +101,2698 @@ http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
 </LineString>
 </Placemark>
 </Document>
+<Document><name>ZAU - 01/192</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZAU - 01/192</name>
+<description>Location: ZAU
+NOTAM #/LTA #: 01/192
+Issue Date (UTC): 01/13/2022 0509
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!IKK 01/192 ZAU AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+434707N0884414W (OSH211014.6) TO
+434322N0873003W (OSH107048.4) TO
+420232N0871409W (OBK110033.6) TO
+420132N0861318W (ELX212008.4) TO
+412652N0861323W (GSH242009.9) TO
+404708N0873331W (BVT301026.2) TO
+405429N0883760W (PNT038006.9) TO
+420059N0891311W (PLL074013.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-88.737222,43.785278,0.0
+-87.500833,43.722778,0.0
+-87.235833,42.042222,0.0
+-86.221667,42.025556,0.0
+-86.223056,41.447778,0.0
+-87.558611,40.785556,0.0
+-88.633333,40.908056,0.0
+-89.219722,42.016389,0.0
+-88.737222,43.785278,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZAU - 01/193</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZAU - 01/193</name>
+<description>Location: ZAU
+NOTAM #/LTA #: 01/193
+Issue Date (UTC): 01/13/2022 0512
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!IKK 01/193 ZAU AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+392758N0870146W (TTH096010.3) TO
+400636N0870529W (DNV115024.0) TO 
+403602N0863631W (BVT082021.2) TO 
+404314N0852752W (MZZ039016.8) TO 
+402208N0843515W (DQN339022.9) TO 
+385615N0855818W (OOM114032.4) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-87.029444,39.466111,0.0
+-87.091389,40.110000,0.0
+-86.608611,40.600556,0.0
+-85.464444,40.720556,0.0
+-84.587500,40.368889,0.0
+-85.971667,38.937500,0.0
+-87.029444,39.466111,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZBW - 01/191</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZBW - 01/191</name>
+<description>Location: ZBW
+NOTAM #/LTA #: 01/191
+Issue Date (UTC): 01/19/2022 1819
+Effective Date (UTC): 01/19/2022 1819
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!BDR 01/191 ZBW AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+421930N0742747W (DNY079023.6) TO
+433308N0745444W (ART127055.4) TO
+440235N0733220W (BTV231026.2) TO
+440235N0730022W (BTV175022.6) TO
+422012N0725629W (CTR021002.7) TO
+404953N0735419W (LGA342003.3) TO
+414253N0751613W (HNK185021.0) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191819-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-74.463056,42.325000,0.0
+-74.912222,43.552222,0.0
+-73.538889,44.043056,0.0
+-73.006111,44.043056,0.0
+-72.941389,42.336667,0.0
+-73.905278,40.831389,0.0
+-75.270278,41.714722,0.0
+-74.463056,42.325000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZBW - 01/192</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZBW - 01/192</name>
+<description>Location: ZBW
+NOTAM #/LTA #: 01/192
+Issue Date (UTC): 01/19/2022 1839
+Effective Date (UTC): 01/19/2022 1838
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!BDR 01/192 ZBW AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+404953N0735419W (LGA342003.3) TO
+422003N0725634W (CTR019002.6) TO
+421135N0721836W (BAF098018.2) TO
+424638N0722657W (GDM323022.2) TO
+431113N0705345W (ENE238018.9) TO
+425400N0701732W (ENE173034.6) TO
+413117N0695309W (ACK039015.7) TO
+404310N0715051W (HTO132024.5) TO
+402114N0731039W (DPK180026.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191838-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-73.905278,40.831389,0.0
+-72.942778,42.334167,0.0
+-72.310000,42.193056,0.0
+-72.449167,42.777222,0.0
+-70.895833,43.186944,0.0
+-70.292222,42.900000,0.0
+-69.885833,41.521389,0.0
+-71.847500,40.719444,0.0
+-73.177500,40.353889,0.0
+-73.905278,40.831389,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZBW - 01/193</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZBW - 01/193</name>
+<description>Location: ZBW
+NOTAM #/LTA #: 01/193
+Issue Date (UTC): 01/19/2022 1845
+Effective Date (UTC): 01/19/2022 1844
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!BDR 01/193 ZBW AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+404303N0773626W (PSB134021.2) TO
+420035N0754332W (HNK271018.5) TO
+402115N0731038W (DPK180026.9) TO
+391648N0740004W (ACY121028.7) TO
+392318N0751447W (OOD180015.1) TO
+384008N0751458W (ATR201008.7) TO
+383959N0760457W (PXT043027.2) TO
+392632N0760622W (DQO249027.1) TO
+393050N0774448W (MRB038009.0) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191844-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-77.607222,40.717500,0.0
+-75.725556,42.009722,0.0
+-73.177222,40.354167,0.0
+-74.001111,39.280000,0.0
+-75.246389,39.388333,0.0
+-75.249444,38.668889,0.0
+-76.082500,38.666389,0.0
+-76.106111,39.442222,0.0
+-77.746667,39.513889,0.0
+-77.607222,40.717500,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZBW - 01/194</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZBW - 01/194</name>
+<description>Location: ZBW
+NOTAM #/LTA #: 01/194
+Issue Date (UTC): 01/19/2022 1928
+Effective Date (UTC): 01/19/2022 1928
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!BDR 01/194 ZBW AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+422542N0783712W (JHW064026.5) TO
+433353N0783343W (BUF013038.4) TO
+433308N0745444W (ART127055.4) TO
+421929N0742745W (DNY079023.7) TO
+422030N0755142W (CFB058016.5) TO
+415104N0765605W (ULW177015.1) TO
+415106N0772908W (SFK351009.8) TO
+422519N0772844W (GEE165027.2) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191928-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-78.620000,42.428333,0.0
+-78.561944,43.564722,0.0
+-74.912222,43.552222,0.0
+-74.462500,42.324722,0.0
+-75.861667,42.341667,0.0
+-76.934722,41.851111,0.0
+-77.485556,41.851667,0.0
+-77.478889,42.421944,0.0
+-78.620000,42.428333,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZDC - 01/435</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZDC - 01/435</name>
+<description>Location: ZDC
+NOTAM #/LTA #: 01/435
+Issue Date (UTC): 01/13/2022 0508
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!DCA 01/435 ZDC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+350910N0833730W (HRS049019.0) TO
+355543N0805628W (BZM082015.0) TO
+351602N0795242W (SDZ285014.6) TO
+343300N0801615W (CTF181006.0) TO
+343522N0810041W (CTF267036.6) TO
+334830N0830608W (AHN127013.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-83.625000,35.152778,0.0
+-80.941111,35.928611,0.0
+-79.878333,35.267222,0.0
+-80.270833,34.550000,0.0
+-81.011389,34.589444,0.0
+-83.102222,33.808333,0.0
+-83.625000,35.152778,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZDC - 01/438</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZDC - 01/438</name>
+<description>Location: ZDC
+NOTAM #/LTA #: 01/438
+Issue Date (UTC): 01/13/2022 0517
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!DCA 01/438 ZDC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+362211N0793003W (SBV237029.8) TO
+362644N0784720W (SBV147017.6) TO
+360538N0780209W (TYI299017.6) TO
+354358N0775829W (TYI227019.7) TO
+351639N0783005W (FAY050025.4) TO
+351851N0790305W (FAY340021.5) TO
+360212N0794145W (GSO095013.6) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-79.500833,36.369722,0.0
+-78.788889,36.445556,0.0
+-78.035833,36.093889,0.0
+-77.974722,35.732778,0.0
+-78.501389,35.277500,0.0
+-79.051389,35.314167,0.0
+-79.695833,36.036667,0.0
+-79.500833,36.369722,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZDC - 01/613</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZDC - 01/613</name>
+<description>Location: ZDC
+NOTAM #/LTA #: 01/613
+Issue Date (UTC): 01/19/2022 1842
+Effective Date (UTC): 01/19/2022 1840
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!DCA 01/613 ZDC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+404303N0773626W (PSB134021.2) TO
+420035N0754332W (HNK271018.5) TO
+402115N0731038W (DPK180026.9) TO
+391648N0740004W (ACY121028.7) TO
+392318N0751447W (OOD180015.1) TO
+384008N0751458W (ATR201008.7) TO
+383959N0760457W (PXT043027.2) TO
+392632N0760622W (DQO249027.1) TO
+393050N0774448W (MRB038009.0) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191840-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-77.607222,40.717500,0.0
+-75.725556,42.009722,0.0
+-73.177222,40.354167,0.0
+-74.001111,39.280000,0.0
+-75.246389,39.388333,0.0
+-75.249444,38.668889,0.0
+-76.082500,38.666389,0.0
+-76.106111,39.442222,0.0
+-77.746667,39.513889,0.0
+-77.607222,40.717500,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZDC - 01/614</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZDC - 01/614</name>
+<description>Location: ZDC
+NOTAM #/LTA #: 01/614
+Issue Date (UTC): 01/19/2022 1859
+Effective Date (UTC): 01/19/2022 1858
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!DCA 01/614 ZDC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+362522N0771414W (CVI289017.9) TO
+364316N0772931W (LVL114020.6) TO
+374134N0770826W (RIC046014.3) TO
+374234N0762406W (HCM050021.5) TO
+364624N0752935W (ORF109034.7) TO
+361739N0760259W (ECG077006.5) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191858-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-77.237222,36.422778,0.0
+-77.491944,36.721111,0.0
+-77.140556,37.692778,0.0
+-76.401667,37.709444,0.0
+-75.493056,36.773333,0.0
+-76.049722,36.294167,0.0
+-77.237222,36.422778,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZFW - 01/413</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZFW - 01/413</name>
+<description>Location: ZFW
+NOTAM #/LTA #: 01/413
+Issue Date (UTC): 01/19/2022 1827
+Effective Date (UTC): 01/19/2022 1826
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!FTW 01/413 ZFW AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+325440N0982937W (MQP285027.4) TO
+340942N0964511W (ADM092020.8) TO
+335745N0961250W (BYP356025.5) TO
+332736N0962652W (BYP241011.7) TO
+325321N0955124W (SLR213024.4) TO
+315507N0961401W (CQY177016.1) TO
+320901N0981018W (MQP185035.7) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191826-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-98.493611,32.911111,0.0
+-96.753056,34.161667,0.0
+-96.213889,33.962500,0.0
+-96.447778,33.460000,0.0
+-95.856667,32.889167,0.0
+-96.233611,31.918611,0.0
+-98.171667,32.150278,0.0
+-98.493611,32.911111,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZFW - 01/414</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZFW - 01/414</name>
+<description>Location: ZFW
+NOTAM #/LTA #: 01/414
+Issue Date (UTC): 01/19/2022 1920
+Effective Date (UTC): 01/19/2022 1919
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!FTW 01/414 ZFW AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+354648N0982930W (IFI257023.8) TO
+354648N0982930W (IFI257023.8) TO
+361060N0973816W (END120016.7) TO
+360533N0963428W (TUL253038.6) TO
+354324N0960624W (OKM271011.9) TO
+341208N0982740W (SPS017014.5) TO
+343227N0985239W (LTS106020.8) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191919-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-98.491667,35.780000,0.0
+-98.491667,35.780000,0.0
+-97.637778,36.183333,0.0
+-96.574444,36.092500,0.0
+-96.106667,35.723333,0.0
+-98.461111,34.202222,0.0
+-98.877500,34.540833,0.0
+-98.491667,35.780000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZFW - 01/415</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZFW - 01/415</name>
+<description>Location: ZFW
+NOTAM #/LTA #: 01/415
+Issue Date (UTC): 01/19/2022 1925
+Effective Date (UTC): 01/19/2022 1924
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!FTW 01/415 ZFW AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+295418N0990630W (CSI093005.6) TO
+300442N0983031W (STV119012.8) TO
+304931N0980610W (AGJ170021.7) TO
+311624N0964210W (ACT120037.2) TO
+303901N0961628W (CLL062008.0) TO
+301220N0971522W (CWK120017.6) TO
+283707N0980736W (THX002006.9) TO
+283514N0990006W (COT030009.7) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191924-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-99.108333,29.905000,0.0
+-98.508611,30.078333,0.0
+-98.102778,30.825278,0.0
+-96.702778,31.273333,0.0
+-96.274444,30.650278,0.0
+-97.256111,30.205556,0.0
+-98.126667,28.618611,0.0
+-99.001667,28.587222,0.0
+-99.108333,29.905000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZHU - 01/400</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZHU - 01/400</name>
+<description>Location: ZHU
+NOTAM #/LTA #: 01/400
+Issue Date (UTC): 01/19/2022 1831
+Effective Date (UTC): 01/19/2022 1829
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CXO 01/400 ZHU AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+304310N0960721W (CLL058016.9) TO
+305408N0954255W (LOA128018.6) TO
+300720N0944118W (DAS204004.6) TO
+291251N0942516W (VUH092023.6) TO
+285441N0944329W (VUH155022.8) TO
+292223N0961121W (ELA151018.6) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191829-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-96.122500,30.719444,0.0
+-95.715278,30.902222,0.0
+-94.688333,30.122222,0.0
+-94.421111,29.214167,0.0
+-94.724722,28.911389,0.0
+-96.189167,29.373056,0.0
+-96.122500,30.719444,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZHU - 01/401</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZHU - 01/401</name>
+<description>Location: ZHU
+NOTAM #/LTA #: 01/401
+Issue Date (UTC): 01/19/2022 1858
+Effective Date (UTC): 01/19/2022 1855
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CXO 01/401 ZHU AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+310325N0905515W (MCB244037.1) TO
+311603N0903639W (MCB260018.2) TO
+310833N0895907W (MCB122017.1) TO
+301850N0891823W (GPT243013.1) TO
+292032N0895239W (LEV048015.5) TO
+285241N0894834W (LEV137023.6) TO
+284633N0903325W (LEV223033.8) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191855-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-90.920833,31.056944,0.0
+-90.610833,31.267500,0.0
+-89.985278,31.142500,0.0
+-89.306389,30.313889,0.0
+-89.877500,29.342222,0.0
+-89.809444,28.878056,0.0
+-90.556944,28.775833,0.0
+-90.920833,31.056944,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZHU - 01/407</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZHU - 01/407</name>
+<description>Location: ZHU
+NOTAM #/LTA #: 01/407
+Issue Date (UTC): 01/19/2022 1923
+Effective Date (UTC): 01/19/2022 1922
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CXO 01/407 ZHU AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+295418N0990630W (CSI093005.6) TO
+300442N0983031W (STV119012.8) TO
+304931N0980610W (AGJ170021.7) TO
+311624N0964210W (ACT120037.2) TO
+303901N0961628W (CLL062008.0) TO
+301220N0971522W (CWK120017.6) TO
+283707N0980736W (THX002006.9) TO
+283514N0990006W (COT030009.7) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191922-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-99.108333,29.905000,0.0
+-98.508611,30.078333,0.0
+-98.102778,30.825278,0.0
+-96.702778,31.273333,0.0
+-96.274444,30.650278,0.0
+-97.256111,30.205556,0.0
+-98.126667,28.618611,0.0
+-99.001667,28.587222,0.0
+-99.108333,29.905000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZID - 01/443</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZID - 01/443</name>
+<description>Location: ZID
+NOTAM #/LTA #: 01/443
+Issue Date (UTC): 01/13/2022 0512
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!HUF 01/443 ZID AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+392758N0870146W (TTH096010.3) TO
+400636N0870529W (DNV115024.0) TO 
+403602N0863631W (BVT082021.2) TO 
+404314N0852752W (MZZ039016.8) TO 
+402208N0843515W (DQN339022.9) TO 
+385615N0855818W (OOM114032.4) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-87.029444,39.466111,0.0
+-87.091389,40.110000,0.0
+-86.608611,40.600556,0.0
+-85.464444,40.720556,0.0
+-84.587500,40.368889,0.0
+-85.971667,38.937500,0.0
+-87.029444,39.466111,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZID - 01/768</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZID - 01/768</name>
+<description>Location: ZID
+NOTAM #/LTA #: 01/768
+Issue Date (UTC): 01/19/2022 1804
+Effective Date (UTC): 01/19/2022 1804
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!HUF 01/768 ZID AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+395124N0850441W (MIE150027.1) TO
+395249N0835517W (DQN111023.4) TO
+403632N0832135W (FBC141027.5) TO
+403736N0824120W (MFD200015.2) TO
+393012N0820326W (ZZV202027.3) TO
+391619N0825602W (YRK008037.8) TO
+381859N0833458W (YRK240034.6) TO
+381909N0845301W (HYK318028.7) TO
+385247N0851703W (CVG257028.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191804-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-85.078056,39.856667,0.0
+-83.921389,39.880278,0.0
+-83.359722,40.608889,0.0
+-82.688889,40.626667,0.0
+-82.057222,39.503333,0.0
+-82.933889,39.271944,0.0
+-83.582778,38.316389,0.0
+-84.883611,38.319167,0.0
+-85.284167,38.879722,0.0
+-85.078056,39.856667,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZID - 01/769</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZID - 01/769</name>
+<description>Location: ZID
+NOTAM #/LTA #: 01/769
+Issue Date (UTC): 01/19/2022 1812
+Effective Date (UTC): 01/19/2022 1812
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!HUF 01/769 ZID AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+411218N0831518W (FBC058027.2) TO
+413800N0825558W (CRL140034.2) TO
+415056N0810310W (JFN296014.6) TO
+421429N0804952W (ERI305027.5) TO
+421532N0801912W (ERI001014.5) TO
+410735N0793654W (EWC064032.5) TO
+411015N0783944W (ETG274023.6) TO
+405138N0782427W (PSB270019.1) TO
+395634N0790739W (IHD106010.8) TO
+393736N0802757W (CKB342024.2) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191812-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-83.255000,41.205000,0.0
+-82.932778,41.633333,0.0
+-81.052778,41.848889,0.0
+-80.831111,42.241389,0.0
+-80.320000,42.258889,0.0
+-79.615000,41.126389,0.0
+-78.662222,41.170833,0.0
+-78.407500,40.860556,0.0
+-79.127500,39.942778,0.0
+-80.465833,39.626667,0.0
+-83.255000,41.205000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZJX - 01/126</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZJX - 01/126</name>
+<description>Location: ZJX
+NOTAM #/LTA #: 01/126
+Issue Date (UTC): 01/13/2022 0509
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!GNV 01/126 ZJX AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+350910N0833730W (HRS049019.0) TO
+355543N0805628W (BZM082015.0) TO
+351602N0795242W (SDZ285014.6) TO
+343300N0801615W (CTF181006.0) TO
+343522N0810041W (CTF267036.6) TO
+334830N0830608W (AHN127013.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-83.625000,35.152778,0.0
+-80.941111,35.928611,0.0
+-79.878333,35.267222,0.0
+-80.270833,34.550000,0.0
+-81.011389,34.589444,0.0
+-83.102222,33.808333,0.0
+-83.625000,35.152778,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZJX - 01/226</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZJX - 01/226</name>
+<description>Location: ZJX
+NOTAM #/LTA #: 01/226
+Issue Date (UTC): 01/19/2022 1846
+Effective Date (UTC): 01/19/2022 1846
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!GNV 01/226 ZJX AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+272755N0830656W (SRQ282029.6) TO
+300702N0834015W (GEF166026.7) TO
+302112N0825117W (TAY243018.1) TO
+295922N0822437W (GNV342019.2) TO
+304730N0815404W (SSI241028.1) TO
+303745N0810842W (CRG050025.7) TO
+274337N0800451W (TRV089021.9) TO
+270849N0812050W (LBV006019.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191846-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-83.115556,27.465278,0.0
+-83.670833,30.117222,0.0
+-82.854722,30.353333,0.0
+-82.410278,29.989444,0.0
+-81.901111,30.791667,0.0
+-81.145000,30.629167,0.0
+-80.080833,27.726944,0.0
+-81.347222,27.146944,0.0
+-83.115556,27.465278,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZKC - 01/577</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZKC - 01/577</name>
+<description>Location: ZKC
+NOTAM #/LTA #: 01/577
+Issue Date (UTC): 01/19/2022 1829
+Effective Date (UTC): 01/19/2022 1827
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!COU 01/577 ZKC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+325440N0982937W (MQP285027.4) TO
+340942N0964511W (ADM092020.8) TO
+335745N0961250W (BYP356025.5) TO
+332736N0962652W (BYP241011.7) TO
+325321N0955124W (SLR213024.4) TO
+315507N0961401W (CQY177016.1) TO
+320901N0981018W (MQP185035.7) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191827-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-98.493611,32.911111,0.0
+-96.753056,34.161667,0.0
+-96.213889,33.962500,0.0
+-96.447778,33.460000,0.0
+-95.856667,32.889167,0.0
+-96.233611,31.918611,0.0
+-98.171667,32.150278,0.0
+-98.493611,32.911111,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZKC - 01/578</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZKC - 01/578</name>
+<description>Location: ZKC
+NOTAM #/LTA #: 01/578
+Issue Date (UTC): 01/19/2022 1833
+Effective Date (UTC): 01/19/2022 1832
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!COU 01/578 ZKC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+394503N0951050W (STJ215017.2) TO
+393703N0935020W (BQS112001.9) TO
+383910N0934445W (ANX139032.1) TO
+382434N0944635W (BUM294015.9) TO
+384614N0952529W (TOP160022.8) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191832-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-95.180556,39.750833,0.0
+-93.838889,39.617500,0.0
+-93.745833,38.652778,0.0
+-94.776389,38.409444,0.0
+-95.424722,38.770556,0.0
+-95.180556,39.750833,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZKC - 01/579</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZKC - 01/579</name>
+<description>Location: ZKC
+NOTAM #/LTA #: 01/579
+Issue Date (UTC): 01/19/2022 1907
+Effective Date (UTC): 01/19/2022 1902
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!COU 01/579 ZKC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+354648N0982930W (IFI257023.8) TO
+354648N0982930W (IFI257023.8) TO
+361060N0973816W (END120016.7) TO
+360533N0963428W (TUL253038.6) TO
+354324N0960624W (OKM271011.9) TO
+341208N0982740W (SPS017014.5) TO
+343227N0985239W (LTS106020.8) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191902-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-98.491667,35.780000,0.0
+-98.491667,35.780000,0.0
+-97.637778,36.183333,0.0
+-96.574444,36.092500,0.0
+-96.106667,35.723333,0.0
+-98.461111,34.202222,0.0
+-98.877500,34.540833,0.0
+-98.491667,35.780000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZKC - 01/580</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZKC - 01/580</name>
+<description>Location: ZKC
+NOTAM #/LTA #: 01/580
+Issue Date (UTC): 01/19/2022 1926
+Effective Date (UTC): 01/19/2022 1926
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!COU 01/580 ZKC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+391220N0911257W (FTZ335032.7) TO
+385230N0882755W (BIB161002.8) TO
+382334N0882729W (SAM250018.4) TO
+374849N0902657W (FAM309013.2) TO
+375913N0913644W (VIH150011.0) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191926-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-91.215833,39.205556,0.0
+-88.465278,38.875000,0.0
+-88.458056,38.392778,0.0
+-90.449167,37.813611,0.0
+-91.612222,37.986944,0.0
+-91.215833,39.205556,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZLA - 01/040</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZLA - 01/040</name>
+<description>Location: ZLA
+NOTAM #/LTA #: 01/040
+Issue Date (UTC): 01/13/2022 0512
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!HHR 01/040 ZLA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+351150N1150319W (GFS041007.1) TO
+354558N1142306W (BLD106027.1) TO 
+353759N1134736W (PGS257012.2) TO 
+351052N1133053W (IGM088021.1) TO 
+345538N1140545W (EED047021.0) TO 
+341835N1134638W (EED113044.0) TO 
+340320N1142903W (PKE091010.2) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-115.055278,35.197222,0.0
+-114.385000,35.766111,0.0
+-113.793333,35.633056,0.0
+-113.514722,35.181111,0.0
+-114.095833,34.927222,0.0
+-113.777222,34.309722,0.0
+-114.484167,34.055556,0.0
+-115.055278,35.197222,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZLA - 01/067</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZLA - 01/067</name>
+<description>Location: ZLA
+NOTAM #/LTA #: 01/067
+Issue Date (UTC): 01/19/2022 1824
+Effective Date (UTC): 01/19/2022 1822
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!HHR 01/067 ZLA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+341506N1200431W (GVO161016.8) TO
+342539N1205037W (GVO245037.8) TO
+354539N1211205W (PRB265028.5) TO
+360324N1200835W (AVE326025.9) TO
+370420N1203835W (HYP218014.6) TO
+372157N1195227W (FRA303020.6) TO
+363600N1182956W (TTE015048.4) TO
+354215N1184232W (TTE113019.7) TO
+350944N1180420W (PMD344031.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191822-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-120.075278,34.251667,0.0
+-120.843611,34.427500,0.0
+-121.201389,35.760833,0.0
+-120.143056,36.056667,0.0
+-120.643056,37.072222,0.0
+-119.874167,37.365833,0.0
+-118.498889,36.600000,0.0
+-118.708889,35.704167,0.0
+-118.072222,35.162222,0.0
+-120.075278,34.251667,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZLA - 01/068</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZLA - 01/068</name>
+<description>Location: ZLA
+NOTAM #/LTA #: 01/068
+Issue Date (UTC): 01/19/2022 1834
+Effective Date (UTC): 01/19/2022 1833
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!HHR 01/068 ZLA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+363304N1154153W (LAS303038.5) TO
+371244N1135315W (MMM019032.5) TO
+364125N1132816W (MMM081039.1) TO
+362103N1143048W (BLD023027.3) TO
+355211N1142203W (BLD092025.3) TO
+352720N1151443W (GFS335019.8) TO
+353356N1154131W (GFS301036.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191833-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-115.698056,36.551111,0.0
+-113.887500,37.212222,0.0
+-113.471111,36.690278,0.0
+-114.513333,36.350833,0.0
+-114.367500,35.869722,0.0
+-115.245278,35.455556,0.0
+-115.691944,35.565556,0.0
+-115.698056,36.551111,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZLA - 01/069</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZLA - 01/069</name>
+<description>Location: ZLA
+NOTAM #/LTA #: 01/069
+Issue Date (UTC): 01/19/2022 1925
+Effective Date (UTC): 01/19/2022 1925
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!HHR 01/069 ZLA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+323907N1172147W (MZB207010.5) TO
+341507N1200437W (GVO162016.8) TO
+351920N1174304W (PMD007044.8) TO
+350829N1164702W (DAG302014.8) TO
+333759N1154518W (TRM076020.3) TO
+324001N1163909W (PGY064016.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191925-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-117.363056,32.651944,0.0
+-120.076944,34.251944,0.0
+-117.717778,35.322222,0.0
+-116.783889,35.141389,0.0
+-115.755000,33.633056,0.0
+-116.652500,32.666944,0.0
+-117.363056,32.651944,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZLC - 01/088</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZLC - 01/088</name>
+<description>Location: ZLC
+NOTAM #/LTA #: 01/088
+Issue Date (UTC): 01/13/2022 0517
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CDC 01/088 ZLC AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+395737N1110614W (PUC309026.9) TO
+394331N1113937W (FFU143035.4) TO
+400301N1131425W (BVL138047)   TO
+413549N1121728W (LHO213017.3) TO
+413251N1113810W (LHO117022.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-111.103889,39.960278,0.0
+-111.660278,39.725278,0.0
+-113.240278,40.050278,0.0
+-112.291111,41.596944,0.0
+-111.636111,41.547500,0.0
+-111.103889,39.960278,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZMA - 01/239</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZMA - 01/239</name>
+<description>Location: ZMA
+NOTAM #/LTA #: 01/239
+Issue Date (UTC): 01/19/2022 1852
+Effective Date (UTC): 01/19/2022 1850
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!MIA 01/239 ZMA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+272755N0830656W (SRQ282029.6) TO
+300702N0834015W (GEF166026.7) TO
+302112N0825117W (TAY243018.1) TO
+295922N0822437W (GNV342019.2) TO
+304730N0815404W (SSI241028.1) TO
+303745N0810842W (CRG050025.7) TO
+274337N0800451W (TRV089021.9) TO
+270849N0812050W (LBV006019.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191850-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-83.115556,27.465278,0.0
+-83.670833,30.117222,0.0
+-82.854722,30.353333,0.0
+-82.410278,29.989444,0.0
+-81.901111,30.791667,0.0
+-81.145000,30.629167,0.0
+-80.080833,27.726944,0.0
+-81.347222,27.146944,0.0
+-83.115556,27.465278,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZMA - 01/245</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZMA - 01/245</name>
+<description>Location: ZMA
+NOTAM #/LTA #: 01/245
+Issue Date (UTC): 01/19/2022 1918
+Effective Date (UTC): 01/19/2022 2018
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!MIA 01/245 ZMA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+272729N0804017W (TRV223016.4) TO
+274339N0800452W (TRV089021.9) TO
+264944N0793424W (PBI075028.9) TO
+244315N0795924W (VKZ176062.5) TO
+240917N0820256W (EYW207029.2) TO
+244914N0821202W (EYW302026.0) TO
+250813N0805638W (DHP223051.2) TO
+261846N0803936W (PHK177028.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201192018-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-80.671389,27.458056,0.0
+-80.081111,27.727500,0.0
+-79.573333,26.828889,0.0
+-79.990000,24.720833,0.0
+-82.048889,24.154722,0.0
+-82.200556,24.820556,0.0
+-80.943889,25.136944,0.0
+-80.660000,26.312778,0.0
+-80.671389,27.458056,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZME - 01/150</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZME - 01/150</name>
+<description>Location: ZME
+NOTAM #/LTA #: 01/150
+Issue Date (UTC): 01/13/2022 0505
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!MKL 01/150 ZME AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+341637N0874954W (MSL212030.8) TO
+341318N0851159W (RMG311005.3) TO 
+333036N0851929W (LGC347028.3) TO 
+324749N0860548W (TGE309028.6) TO 
+324249N0875432W (LDK207037.7) TO 
+330210N0881114W (IGB145031.6) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-87.831667,34.276944,0.0
+-85.199722,34.221667,0.0
+-85.324722,33.510000,0.0
+-86.096667,32.796944,0.0
+-87.908889,32.713611,0.0
+-88.187222,33.036111,0.0
+-87.831667,34.276944,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZME - 01/233</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZME - 01/233</name>
+<description>Location: ZME
+NOTAM #/LTA #: 01/233
+Issue Date (UTC): 01/19/2022 1836
+Effective Date (UTC): 01/19/2022 1835
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!MKL 01/233 ZME AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+363643N0933318W (HRO313024.2) TO
+363319N0920634W (DGD126046.4) TO
+352654N0903453W (GQE316007.9) TO
+335332N0914339W (MON354019.8) TO
+335332N0922026W (PBF220029.6) TO
+352602N0940422W (FSM067010.1) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191835-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-93.555000,36.611944,0.0
+-92.109444,36.555278,0.0
+-90.581389,35.448333,0.0
+-91.727500,33.892222,0.0
+-92.340556,33.892222,0.0
+-94.072778,35.433889,0.0
+-93.555000,36.611944,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZME - 01/235</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZME - 01/235</name>
+<description>Location: ZME
+NOTAM #/LTA #: 01/235
+Issue Date (UTC): 01/19/2022 1854
+Effective Date (UTC): 01/19/2022 1853
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!MKL 01/235 ZME AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+354931N0875250W (BNA255061.0) TO
+365628N0875751W (CNG092042.1) TO
+371729N0874021W (PXV171038.5) TO
+364555N0855654W (BNA045051.9) TO
+353958N0854748W (SYI080032.0) TO
+351602N0861623W (SYI156019.5) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191853-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-87.880556,35.825278,0.0
+-87.964167,36.941111,0.0
+-87.672500,37.291389,0.0
+-85.948333,36.765278,0.0
+-85.796667,35.666111,0.0
+-86.273056,35.267222,0.0
+-87.880556,35.825278,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZMP - 01/097</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZMP - 01/097</name>
+<description>Location: ZMP
+NOTAM #/LTA #: 01/097
+Issue Date (UTC): 01/13/2022 0515
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!PNM 01/097 ZMP AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+453350N0953159W (AXN201026.8) TO
+460223N0951758W (AXN323005.6) TO
+455937N0924844W (DLH203054.7) TO
+445830N0913323W (EAU321005.7) TO
+435120N0932306W (MKT127031.6) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-95.533056,45.563889,0.0
+-95.299444,46.039722,0.0
+-92.812222,45.993611,0.0
+-91.556389,44.975000,0.0
+-93.385000,43.855556,0.0
+-95.533056,45.563889,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZNY - 01/210</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZNY - 01/210</name>
+<description>Location: ZNY
+NOTAM #/LTA #: 01/210
+Issue Date (UTC): 01/19/2022 1821
+Effective Date (UTC): 01/19/2022 1820
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!ISP 01/210 ZNY AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+421930N0742747W (DNY079023.6) TO
+433308N0745444W (ART127055.4) TO
+440235N0733220W (BTV231026.2) TO
+440235N0730022W (BTV175022.6) TO
+422012N0725629W (CTR021002.7) TO
+404953N0735419W (LGA342003.3) TO
+414253N0751613W (HNK185021.0) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191820-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-74.463056,42.325000,0.0
+-74.912222,43.552222,0.0
+-73.538889,44.043056,0.0
+-73.006111,44.043056,0.0
+-72.941389,42.336667,0.0
+-73.905278,40.831389,0.0
+-75.270278,41.714722,0.0
+-74.463056,42.325000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZNY - 01/211</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZNY - 01/211</name>
+<description>Location: ZNY
+NOTAM #/LTA #: 01/211
+Issue Date (UTC): 01/19/2022 1838
+Effective Date (UTC): 01/19/2022 1837
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!ISP 01/211 ZNY AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+404953N0735419W (LGA342003.3) TO
+422003N0725634W (CTR019002.6) TO
+421135N0721836W (BAF098018.2) TO
+424638N0722657W (GDM323022.2) TO
+431113N0705345W (ENE238018.9) TO
+425400N0701732W (ENE173034.6) TO
+413117N0695309W (ACK039015.7) TO
+404310N0715051W (HTO132024.5) TO
+402114N0731039W (DPK180026.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191837-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-73.905278,40.831389,0.0
+-72.942778,42.334167,0.0
+-72.310000,42.193056,0.0
+-72.449167,42.777222,0.0
+-70.895833,43.186944,0.0
+-70.292222,42.900000,0.0
+-69.885833,41.521389,0.0
+-71.847500,40.719444,0.0
+-73.177500,40.353889,0.0
+-73.905278,40.831389,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZNY - 01/212</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZNY - 01/212</name>
+<description>Location: ZNY
+NOTAM #/LTA #: 01/212
+Issue Date (UTC): 01/19/2022 1843
+Effective Date (UTC): 01/19/2022 1843
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!ISP 01/212 ZNY AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+404303N0773626W (PSB134021.2) TO
+420035N0754332W (HNK271018.5) TO
+402115N0731038W (DPK180026.9) TO
+391648N0740004W (ACY121028.7) TO
+392318N0751447W (OOD180015.1) TO
+384008N0751458W (ATR201008.7) TO
+383959N0760457W (PXT043027.2) TO
+392632N0760622W (DQO249027.1) TO
+393050N0774448W (MRB038009.0) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191843-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-77.607222,40.717500,0.0
+-75.725556,42.009722,0.0
+-73.177222,40.354167,0.0
+-74.001111,39.280000,0.0
+-75.246389,39.388333,0.0
+-75.249444,38.668889,0.0
+-76.082500,38.666389,0.0
+-76.106111,39.442222,0.0
+-77.746667,39.513889,0.0
+-77.607222,40.717500,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZNY - 01/213</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZNY - 01/213</name>
+<description>Location: ZNY
+NOTAM #/LTA #: 01/213
+Issue Date (UTC): 01/19/2022 1929
+Effective Date (UTC): 01/19/2022 1929
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!ISP 01/213 ZNY AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+422542N0783712W (JHW064026.5) TO
+433353N0783343W (BUF013038.4) TO
+433308N0745444W (ART127055.4) TO
+421929N0742745W (DNY079023.7) TO
+422030N0755142W (CFB058016.5) TO
+415104N0765605W (ULW177015.1) TO
+415106N0772908W (SFK351009.8) TO
+422519N0772844W (GEE165027.2) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191929-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-78.620000,42.428333,0.0
+-78.561944,43.564722,0.0
+-74.912222,43.552222,0.0
+-74.462500,42.324722,0.0
+-75.861667,42.341667,0.0
+-76.934722,41.851111,0.0
+-77.485556,41.851667,0.0
+-77.478889,42.421944,0.0
+-78.620000,42.428333,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZOA - 01/174</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZOA - 01/174</name>
+<description>Location: ZOA
+NOTAM #/LTA #: 01/174
+Issue Date (UTC): 01/19/2022 1802
+Effective Date (UTC): 01/19/2022 1800
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!OAK 01/174 ZOA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+375153N1225947W (PYE188014.3) TO
+382037N1202539W (HNW129027.4) TO
+373228N1201507W (HYP005020.6) TO
+364934N1210120W (PXN284013.5) TO
+360623N1205354W (PRB317029.2) TO
+361019N1221917W (BSR253032.9) TO POINT OF ORIGIN SFC-5000FT AGL.
+HEL OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT
+OPS, HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT
+A/B/PERFORMANCE CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING
+APPROVED ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND
+INTERFERENCE PLUS SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191800-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-122.996389,37.864722,0.0
+-120.427500,38.343611,0.0
+-120.251944,37.541111,0.0
+-121.022222,36.826111,0.0
+-120.898333,36.106389,0.0
+-122.996389,37.864722,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZOA - 01/175</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZOA - 01/175</name>
+<description>Location: ZOA
+NOTAM #/LTA #: 01/175
+Issue Date (UTC): 01/19/2022 1825
+Effective Date (UTC): 01/19/2022 1825
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!OAK 01/175 ZOA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+341506N1200431W (GVO161016.8) TO
+342539N1205037W (GVO245037.8) TO
+354539N1211205W (PRB265028.5) TO
+360324N1200835W (AVE326025.9) TO
+370420N1203835W (HYP218014.6) TO
+372157N1195227W (FRA303020.6) TO
+363600N1182956W (TTE015048.4) TO
+354215N1184232W (TTE113019.7) TO
+350944N1180420W (PMD344031.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191825-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-120.075278,34.251667,0.0
+-120.843611,34.427500,0.0
+-121.201389,35.760833,0.0
+-120.143056,36.056667,0.0
+-120.643056,37.072222,0.0
+-119.874167,37.365833,0.0
+-118.498889,36.600000,0.0
+-118.708889,35.704167,0.0
+-118.072222,35.162222,0.0
+-120.075278,34.251667,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZOA - 01/181</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZOA - 01/181</name>
+<description>Location: ZOA
+NOTAM #/LTA #: 01/181
+Issue Date (UTC): 01/19/2022 1900
+Effective Date (UTC): 01/19/2022 1859
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!OAK 01/181 ZOA AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+390729N1230415W (ENI050010.4) TO
+384807N1220935W (ILA183017.3) TO
+385656N1220149W (ILA163007.3) TO
+395157N1222722W (RBL198017.3) TO
+401305N1214056W (RBL056026.4) TO
+392711N1194143W (FMG185005.0) TO
+382933N1193644W (SWR127051.5) TO
+375153N1225947W (PYE188014.3) TO
+384435N1233304W (ENI199022.7) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191859-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-123.070833,39.124722,0.0
+-122.159722,38.801944,0.0
+-122.030278,38.948889,0.0
+-122.456111,39.865833,0.0
+-121.682222,40.218056,0.0
+-119.695278,39.453056,0.0
+-119.612222,38.492500,0.0
+-122.996389,37.864722,0.0
+-123.551111,38.743056,0.0
+-123.070833,39.124722,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZOB - 01/315</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZOB - 01/315</name>
+<description>Location: ZOB
+NOTAM #/LTA #: 01/315
+Issue Date (UTC): 01/13/2022 0510
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CLE 01/315 ZOB AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+430857N0844959W (MOP193028.7) TO
+434219N0833737W (MBS065022.2) TO
+431926N0824445W (FNT070048.8) TO
+430120N0822424W (FNT092059)   TO
+423625N0823046W (DXO064044.6) TO
+422157N0824941W (DXO075025.6) TO
+421722N0830526W (DXO075013.1) TO
+420219N0830901W (CRL095013.7) TO
+414735N0825720W (CRL127027.2) TO
+414804N0842314W (LFD138023) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-84.833056,43.149167,0.0
+-83.626944,43.705278,0.0
+-82.745833,43.323889,0.0
+-82.406667,43.022222,0.0
+-82.512778,42.606944,0.0
+-82.828056,42.365833,0.0
+-83.090556,42.289444,0.0
+-83.150278,42.038611,0.0
+-82.955556,41.793056,0.0
+-84.387222,41.801111,0.0
+-84.833056,43.149167,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZOB - 01/776</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZOB - 01/776</name>
+<description>Location: ZOB
+NOTAM #/LTA #: 01/776
+Issue Date (UTC): 01/19/2022 1808
+Effective Date (UTC): 01/19/2022 1806
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CLE 01/776 ZOB AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+395124N0850441W (MIE150027.1) TO
+395249N0835517W (DQN111023.4) TO
+403632N0832135W (FBC141027.5) TO
+403736N0824120W (MFD200015.2) TO
+393012N0820326W (ZZV202027.3) TO
+391619N0825602W (YRK008037.8) TO
+381859N0833458W (YRK240034.6) TO
+381909N0845301W (HYK318028.7) TO
+385247N0851703W (CVG257028.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191806-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-85.078056,39.856667,0.0
+-83.921389,39.880278,0.0
+-83.359722,40.608889,0.0
+-82.688889,40.626667,0.0
+-82.057222,39.503333,0.0
+-82.933889,39.271944,0.0
+-83.582778,38.316389,0.0
+-84.883611,38.319167,0.0
+-85.284167,38.879722,0.0
+-85.078056,39.856667,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZOB - 01/777</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZOB - 01/777</name>
+<description>Location: ZOB
+NOTAM #/LTA #: 01/777
+Issue Date (UTC): 01/19/2022 1809
+Effective Date (UTC): 01/19/2022 1809
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CLE 01/777 ZOB AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+411218N0831518W (FBC058027.2) TO
+413800N0825558W (CRL140034.2) TO
+415056N0810310W (JFN296014.6) TO
+421429N0804952W (ERI305027.5) TO
+421532N0801912W (ERI001014.5) TO
+410735N0793654W (EWC064032.5) TO
+411015N0783944W (ETG274023.6) TO
+405138N0782427W (PSB270019.1) TO
+395634N0790739W (IHD106010.8) TO
+393736N0802757W (CKB342024.2) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191809-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-83.255000,41.205000,0.0
+-82.932778,41.633333,0.0
+-81.052778,41.848889,0.0
+-80.831111,42.241389,0.0
+-80.320000,42.258889,0.0
+-79.615000,41.126389,0.0
+-78.662222,41.170833,0.0
+-78.407500,40.860556,0.0
+-79.127500,39.942778,0.0
+-80.465833,39.626667,0.0
+-83.255000,41.205000,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZOB - 01/784</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZOB - 01/784</name>
+<description>Location: ZOB
+NOTAM #/LTA #: 01/784
+Issue Date (UTC): 01/19/2022 1927
+Effective Date (UTC): 01/19/2022 1927
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!CLE 01/784 ZOB AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+422542N0783712W (JHW064026.5) TO
+433353N0783343W (BUF013038.4) TO
+433308N0745444W (ART127055.4) TO
+421929N0742745W (DNY079023.7) TO
+422030N0755142W (CFB058016.5) TO
+415104N0765605W (ULW177015.1) TO
+415106N0772908W (SFK351009.8) TO
+422519N0772844W (GEE165027.2) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201191927-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-78.620000,42.428333,0.0
+-78.561944,43.564722,0.0
+-74.912222,43.552222,0.0
+-74.462500,42.324722,0.0
+-75.861667,42.341667,0.0
+-76.934722,41.851111,0.0
+-77.485556,41.851667,0.0
+-77.478889,42.421944,0.0
+-78.620000,42.428333,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZSE - 01/241</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZSE - 01/241</name>
+<description>Location: ZSE
+NOTAM #/LTA #: 01/241
+Issue Date (UTC): 01/13/2022 0517
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!SEA 01/241 ZSE AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+462231N1242012W (AST289022.9) TO
+463436N1224445W (OLM146024.6) TO
+455944N1215630W (BTG040031)   TO
+451003N1214824W (LTJ201044.3) TO
+450340N1222821W (UBG108027.7) TO
+435638N1222554W (EUG092035.8) TO
+435703N1234650W (EUG232026.1) TO
+450519N1234837W (ONP004032.6) TO
+451645N1242236W (ONP327044.3) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-124.336667,46.375278,0.0
+-122.745833,46.576667,0.0
+-121.941667,45.995556,0.0
+-121.806667,45.167500,0.0
+-122.472500,45.061111,0.0
+-122.431667,43.943889,0.0
+-123.780556,43.950833,0.0
+-123.810278,45.088611,0.0
+-124.376667,45.279167,0.0
+-124.336667,46.375278,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZSE - 01/242</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZSE - 01/242</name>
+<description>Location: ZSE
+NOTAM #/LTA #: 01/242
+Issue Date (UTC): 01/13/2022 0518
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!SEA 01/242 ZSE AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+481723N1235928W (TOU069025.4) TO
+481331N1233231W (CVV249032.7) TO
+481703N1231455W (CVV258021.1) TO
+482151N1231016W (CVV273019.2) TO
+482959N1220842W (CVV037027.7) TO
+481644N1213410W (PAE033035.7) TO
+472618N1211754W (SEA070041.1) TO
+464218N1215129W (OLM091045.8) TO
+464231N1225453W (OLM163015.8) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-123.991111,48.289722,0.0
+-123.541944,48.225278,0.0
+-123.248611,48.284167,0.0
+-123.171111,48.364167,0.0
+-122.145000,48.499722,0.0
+-121.569444,48.278889,0.0
+-121.298333,47.438333,0.0
+-121.858056,46.705000,0.0
+-122.914722,46.708611,0.0
+-123.991111,48.289722,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZTL - 01/396</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZTL - 01/396</name>
+<description>Location: ZTL
+NOTAM #/LTA #: 01/396
+Issue Date (UTC): 01/13/2022 0507
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!MCN 01/396 ZTL AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+341637N0874954W (MSL212030.8) TO
+341318N0851159W (RMG311005.3) TO
+333036N0851929W (LGC347028.3) TO
+324749N0860548W (TGE309028.6) TO
+324249N0875432W (LDK207037.7) TO
+330210N0881114W (IGB145031.6) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-87.831667,34.276944,0.0
+-85.199722,34.221667,0.0
+-85.324722,33.510000,0.0
+-86.096667,32.796944,0.0
+-87.908889,32.713611,0.0
+-88.187222,33.036111,0.0
+-87.831667,34.276944,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+<Document><name>ZTL - 01/397</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark><name>ZTL - 01/397</name>
+<description>Location: ZTL
+NOTAM #/LTA #: 01/397
+Issue Date (UTC): 01/13/2022 0508
+Effective Date (UTC): 01/19/2022 0501
+Expiration Date (UTC): 01/19/2024 0501
+NOTAM Text: 
+!MCN 01/397 ZTL AIRSPACE RDO ALTIMETER UNREL WI AN AREA DEFINED AS
+350910N0833730W (HRS049019.0) TO
+355543N0805628W (BZM082015.0) TO
+351602N0795242W (SDZ285014.6) TO
+343300N0801615W (CTF181006.0) TO
+343522N0810041W (CTF267036.6) TO
+334830N0830608W (AHN127013.9) TO POINT OF ORIGIN SFC-5000FT AGL. HEL
+OPS REQUIRING RDO ALTIMETER DATA TO INCLUDE OFFSHORE INSTRUMENT OPS,
+HOVER AUTOPILOT MODES, SAR AUTOPILOT MODES, AND CAT A/B/PERFORMANCE
+CLASS TKOF AND LDG NOT AUTHORIZED EXC FOR ACFT USING APPROVED
+ALTERNATIVE METHODS OF COMPLIANCE DUE TO 5G C-BAND INTERFERENCE PLUS
+SEE AIRWORTHINESS DIRECTIVE 2021-23-13
+2201190501-2401190501</description>
+<styleUrl>#Path</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+-83.625000,35.152778,0.0
+-80.941111,35.928611,0.0
+-79.878333,35.267222,0.0
+-80.270833,34.550000,0.0
+-81.011389,34.589444,0.0
+-83.102222,33.808333,0.0
+-83.625000,35.152778,0.0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</Folder>
 </kml>
