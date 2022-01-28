@@ -96,8 +96,8 @@ def build_kml(kml_string, Notam):
     kml_string += ('\n%f,%f,0.0\n' % (lng, lat))
     return kml_string
 
-def main():
-    notams_dict = read_xlsx('5g_notams.xlsx')
+def main(filename):
+    notams_dict = read_xlsx(filename)
     kml_start = open(os.path.join(dir_path, 'kml_front_matter.kml'), 'r').read()
     kml_middle = open(os.path.join(dir_path, 'kml_int_matter.kml'), 'r').read()
     kml_end = open(os.path.join(dir_path, 'kml_end_matter.kml'), 'r').read()
@@ -113,7 +113,7 @@ def main():
         f.write(kml)
 
 if __name__ == '__main__':
-    main()
+    main(os.path.join(dir_path, '5g_notams.xlsx'))
     # notam_dict = read_xlsx('5g_notams.xlsx')[0]
     # Notam = NOTAM(notam_dict)
     # print(Notam)
