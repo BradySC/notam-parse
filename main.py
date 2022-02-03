@@ -1,15 +1,20 @@
-import os
+import os, re
 import pandas as pd
 
 dir_path = os.path.dirname(os.path.abspath(__file__))
 
 class NOTAM:
-    def __init__(self, notam):
+    def __init__(self, notam, circle = False):
         self.NotamDict = notam
+        self.circle = True if re.search('([0-9]{1,3}NM RADIUS OF )', self.NotamDict['NOTAM Text']) is not None else False
 
     @property
     def Location(self):
         return self.NotamDict['Location']
+
+    @property
+    def Identifier(self):
+        return self.NotamDict['ID']
 
     @property
     def Identification(self):
@@ -41,6 +46,16 @@ class NOTAM:
             if line[-3:] == ' TO' or line[-3:] == 'HEL':
                 coords_unparse.append(line[:15])
         return coords_unparse
+
+    @property
+    def CircleCoords(self):
+        text_lines = self.NotamText.splitlines()
+        for index, line in enumerate(text_lines):
+            if 'RADIUS OF ' in line:
+                center_point = re.findall('([0-9]{6}(N|S)[0-9]{7}(E|W))', line)[0]
+            else:
+                center_point = None
+        return center_point
 
     def __str__(self):
         return (
@@ -101,9 +116,14 @@ def main(filename):
     kml_start = open(os.path.join(dir_path, 'kml_front_matter.kml'), 'r').read()
     kml_middle = open(os.path.join(dir_path, 'kml_int_matter.kml'), 'r').read()
     kml_end = open(os.path.join(dir_path, 'kml_end_matter.kml'), 'r').read()
+    circle_check = 0
     for index, notam in enumerate(notams_dict):
         Notam = NOTAM(notam)
-        if index == 0:
+        if Notam.circle:
+            if index == 0:
+                circle_check = index+1
+            continue
+        if circle_check == index and index == 1:
             kml = build_kml(kml_start, Notam)
         else:
             kml += build_kml(kml_middle, Notam)
