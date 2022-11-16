@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Folder>
-<Document><name>My document</name>
+<Document><name>5G NOTAMs</name>
 <description>Content</description>
 <Style id="Lump">
 <LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
@@ -9,6 +9,7 @@
 </Style>
 <Style id="Path">
 <LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+<PolyStyle><color>460000FF</color></PolyStyle>
 </Style>
 <Style id="markerstyle">
 <IconStyle><Icon><href>
@@ -16,9 +17,12 @@ http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
 </href></Icon></IconStyle>
 </Style>
 <Placemark><name>NAME</name>
-<description>YES</description>
 <styleUrl>#Path</styleUrl>
-<LineString>
+<Polygon>
+<extrude>1</extrude>
 <tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
+<description>YES</description>
+<altitudeMode>clampedToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
 <coordinates>
